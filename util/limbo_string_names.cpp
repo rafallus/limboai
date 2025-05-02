@@ -12,7 +12,7 @@
 #include "limbo_string_names.h"
 
 #ifdef LIMBOAI_MODULE
-#define SN(m_arg) (StaticCString::create(m_arg))
+#define SN(m_arg) (StringName(m_arg))
 #endif // ! LIMBOAI_MODULE
 
 #ifdef LIMBOAI_GDEXTENSION
