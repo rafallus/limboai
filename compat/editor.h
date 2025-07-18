@@ -14,7 +14,7 @@
 #ifdef TOOLS_ENABLED
 
 #ifdef LIMBOAI_MODULE
-#include <editor/editor_file_system.h>
+#include <editor/file_system/editor_file_system.h>
 #include <editor/editor_interface.h>
 #define EDITOR_FILE_SYSTEM() (EditorFileSystem::get_singleton())
 #endif // LIMBOAI_MODULE
